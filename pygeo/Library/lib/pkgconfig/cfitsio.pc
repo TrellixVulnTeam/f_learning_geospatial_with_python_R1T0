@@ -1,0 +1,12 @@
+prefix=C:/Users/pnjoya/Documents/GitHub/f_learning_geospatial_with_python/pygeo/Library
+exec_prefix=C:/Users/pnjoya/Documents/GitHub/f_learning_geospatial_with_python/pygeo/Library
+libdir=
+includedir=C:/Users/pnjoya/Documents/GitHub/f_learning_geospatial_with_python/pygeo/Library/include/
+
+Name: cfitsio
+Description: FITS File Subroutine Library
+URL: https://heasarc.gsfc.nasa.gov/fitsio/
+Version: .
+Libs: -L${libdir} 
+Libs.private: -lm
+Cflags: -I${includedir}

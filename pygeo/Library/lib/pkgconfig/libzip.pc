@@ -1,0 +1,15 @@
+prefix=C:/Users/pnjoya/Documents/GitHub/f_learning_geospatial_with_python/pygeo/Library
+exec_prefix=${prefix}
+bindir=C:/Users/pnjoya/Documents/GitHub/f_learning_geospatial_with_python/pygeo/Library/bin
+libdir=C:/Users/pnjoya/Documents/GitHub/f_learning_geospatial_with_python/pygeo/Library/lib
+includedir=C:/Users/pnjoya/Documents/GitHub/f_learning_geospatial_with_python/pygeo/Library/include
+
+zipcmp=C:/Users/pnjoya/Documents/GitHub/f_learning_geospatial_with_python/pygeo/Library/bin/zipcmp
+
+Name: libzip
+Description: library for handling zip archives
+Version: 1.8.0
+Libs:  -L${libdir} -lzip
+Libs.private:  -ladvapi32 -lbzip2 -lbcrypt -lz
+Cflags: -I${includedir}
+
